@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="!scroll-smooth dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="assets/portfolio Logo.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="List.css">
     <title>NagaSatya</title>
 </head>
 
-<body class="bg-white text-blue-50 dark:bg-gray-900">
+<body class="bg-white  dark:bg-gray-900">
 
     <!--Nav-Section-->
-    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <nav class="bg-white border-gray-200 fixed w-full z-20 top-0 left-0 border-b  dark:border-gray-600 dark:bg-gray-900 dark:text-black">
 
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 backdrop-blur-3xl">
             <a href="#" class="flex items-center">
                 <span
-                    class="self-center text-2xl font-semibold font-mono whitespace-nowrap dark:text-white">NagaSatya</span>
+                    class="text-black self-center text-2xl font-semibold font-mono whitespace-nowrap dark:text-blue-50">NagaSatya</span>
             </a>
 
 
             <div class="flex md:order-2">
-                <div class="toggle-switch">
-                    <label class="switch-label">
-                        <input type="checkbox" class="checkbox" id="theme-toggle">
-                        <span class="slider"></span>
-                    </label>
-                </div>
+                
+            <div class="icon-change">
+
+                <label class="switch">
+                    
+                    <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12" class="sun-icon"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>
+                    <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>   
+                    <input type="checkbox" class="input">
+                    <span class="slider moon-icon"></span>
+                </label>
+
+            </div>
+ 
                 <div class="p-1">
                     <button data-collapse-toggle="navbar-sticky" type="button"
                         class="inline-flex items-center p-2 h-15 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -57,13 +65,13 @@
                     </li>
 
                     <li>
-                        <a href="#about me" 
+                        <a href="#about me"
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About
                             me</a>
                     </li>
 
                     <li>
-                        <a href="#skill's" 
+                        <a href="#skill's"
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Skill's</a>
                     </li>
 
@@ -87,7 +95,7 @@
 
     <!--Home-Section-->
 
-    <section id="home" class="m-0 p-0 border-0">
+    <section id="home" class="text-black m-0 p-0 border-0 dark:text-blue-50">
 
         <div
             class="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
@@ -97,7 +105,7 @@
             </div>
             <div class="md:mt-2 md:w-2/4 must">
                 <h1 class="text-4xl large-text font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m NagaSatya<span
-                        class="animate-ping wave">👋</span></h1>
+                        class="wave">👋</span></h1>
                 <p class="text-lg mt-4 mb-6 md:text-2xl">
                     I&#39;m a
                     <span class="font-semibold text-teal-600">
@@ -115,9 +123,9 @@
                         </div>
                     </button>
 
-                    <div class="flex rounded-r-lg px-6 py-3 bg-white ">
-                        <a href="" target="_blank"><img src="assets/icons/Twitter-icon.svg" class="w-10 h-10 pr-1 hover:animate-bounce"
-                                alt="twitter">
+                    <div class="flex rounded-r-lg px-6 py-3 bg-white border-blue-400 dark:border-none border-2">
+                        <a href="" target="_blank"><img src="assets/icons/Twitter-icon.svg"
+                                class="w-10 h-10 pr-1 hover:animate-bounce" alt="twitter">
                         </a>
                         <a href="" target="_blank">
                             <img src="assets/icons/Linkedin-icon.svg" class="w-10 h-10 pr-1 hover:animate-bounce"
@@ -126,8 +134,8 @@
                         <a href="" target="_blank"><img src="assets/icons/instagram-icon.svg"
                                 class="w-11 h-10 pr-1 hover:animate-bounce" alt="instagram">
                         </a>
-                        <a href="" target="_blank"><img src="assets/icons/Github-icon.svg" class="w-9 h-9 pl-1 hover:animate-bounce"
-                                alt="github"></a>
+                        <a href="" target="_blank"><img src="assets/icons/Github-icon.svg"
+                                class="w-9 h-9 pl-1 hover:animate-bounce" alt="github"></a>
                     </div>
                 </div>
             </div>
@@ -149,7 +157,7 @@
 
     <!--About-Section-->
 
-    <section id="about me" class="m-0 pt-10 border-0">
+    <section id="about me" class="text-black m-0 pt-10 border-0 dark:text-blue-50" data-aos="zoom-in">
         <div class="my-10 pb-10 md:pt-16">
             <h1 class="text-center font-bold text-4xl">
                 About Me
@@ -203,18 +211,22 @@
 
     <section id="skill's" class="pt-11">
         <div class="my-10 pb-3 md:pt-16">
-            <h1 class="text-center font-bold text-4xl">
+            <h1 class="text-black text-center font-bold text-4xl dark:text-blue-50">
                 Skill's
                 <hr class="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded">
                 </hr>
             </h1>
         </div>
 
-        <div
+        <div 
             class="relative flex flex-col items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row ">
 
             <!-- Box 1 -->
-            <div class="flex flex-col w-full py-6 space-y-6 text-center  rounded-xl shadow-lg md:w-1/3 bg-gray-800">
+            <div    
+            data-aos="fade-right"
+            
+          
+            class="flex flex-col w-full py-6 space-y-6 text-center  rounded-xl shadow-lg md:w-1/3 bg-gray-800">
                 <!-- Text -->
                 <h5 class="pt-3 pb-3 text-xl font-bold text-blue-500 ">Technology</h5>
                 <!-- Dots -->
@@ -265,7 +277,8 @@
 
 
             <!-- Box 2 -->
-            <div class="flex flex-col w-full py-6 space-y-6 text-center  rounded-xl shadow-lg md:w-1/3 bg-gray-800">
+            <div data-aos="fade-up"
+            class="flex flex-col w-full py-6 space-y-6 text-center  rounded-xl shadow-lg md:w-1/3 bg-gray-800">
                 <!-- Text -->
                 <h5 class="pt-3 pb-3 text-xl font-bold text-blue-500 "> Languages</h5>
                 <!-- Dots -->
@@ -318,7 +331,8 @@
 
 
             <!-- Box 3 -->
-            <div class="flex flex-col w-full py-6 space-y-6 text-center  rounded-xl shadow-lg md:w-1/3 bg-gray-800">
+            <div data-aos="fade-left" 
+            class="flex flex-col w-full py-6 space-y-6 text-center  rounded-xl shadow-lg md:w-1/3 bg-gray-800">
                 <!-- Text -->
                 <h5 class="pt-3 pb-3 text-xl font-bold text-blue-500 ">Frameworks</h5>
                 <!-- Dots -->
@@ -371,7 +385,7 @@
 
     <section id="Project" class="pt-11">
         <div class="my-10 pb-3 md:pt-16">
-            <h1 class="text-center font-bold text-4xl">
+            <h1 class="text-black text-center font-bold text-4xl dark:text-blue-50">
                 Project
                 <hr class="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded">
                 </hr>
@@ -382,30 +396,33 @@
 
             <!-- Box 1 -->
 
-            <div class="flex  flex-wrap  justify-center fit-in">
+            <div class="flex  flex-wrap  justify-center fit-in" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
 
 
                 <div class="flex flex-wrap">
                     <a href="https://github.com/iamNagasatya/Perceptron" target="_blank">
-                        <img src="assets/1.png" alt="project-1"
-                            class="rounded-xl shadow-xl hover:opacity-70 h-72">
+                        <img src="assets/1.png" alt="project-1" class="rounded-xl shadow-xl hover:opacity-70 h-72">
                     </a>
                 </div>
 
                 <div class="md:w-2/5 pl-7 fit-out">
 
-                    <h1 class="text-4xl font-bold mb-6">Perceptron - neuronlinear</h1>
+                    <h1 class="text-black text-4xl font-bold mb-6 dark:text-blue-50">Perceptron - neuronlinear</h1>
                     <p class="text-lg leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
-                        This package is designed to provide a simple and efficient implementation of the Perceptron algorithm for binary classification tasks
+                        This package is designed to provide a simple and efficient implementation of the Perceptron
+                        algorithm for binary classification tasks
                     </p>
 
-                    <div class="flex flex-row align-bottom space-x-4">
-                    <a href="https://github.com/iamNagasatya/Perceptron" target="_blank">
-                        <img src="assets/icons/icons8-github-64.png" alt="github" class="w-9 h-9 hover:bg-blue-800 rounded-full">
-                    </a>
-                    <a href="https://github.com/iamNagasatya/Perceptron" class="w-9 h-9" target="_blank">
-                        <img src="assets/icons/icons8-link-48.png" alt="link" class="w-9 h-9 hover:bg-blue-800 rounded-md">
-                    </a>
+                    <div class="flex flex-row align-bottom space-x-4 ">
+                        <a href="https://github.com/iamNagasatya/Perceptron" target="_blank">
+                            <img src="assets/icons/icons8-github-64.png" alt="github"
+                                class="w-9 h-9 hover:bg-blue-800 rounded-full">
+                        </a>
+                        <a href="https://github.com/iamNagasatya/Perceptron" class="w-9 h-9" target="_blank">
+                            <img src="assets/icons/icons8-link-48.png" alt="link"
+                                class="w-9 h-9 hover:bg-blue-800 rounded-md">
+                        </a>
                     </div>
                 </div>
 
@@ -415,29 +432,32 @@
 
             <!-- Box 2 -->
 
-            <div class="flex  flex-wrap  justify-center pt-12 fit-in">
+            <div class="flex  flex-wrap  justify-center pt-12 fit-in" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
 
 
                 <div class="flex flex-wrap">
                     <a href="https://diet.nagasatya.in/" target="_blank">
-                        <img src="assets/2.png" alt="project-2"
-                            class="rounded-xl shadow-xl hover:opacity-70 h-72">
+                        <img src="assets/2.png" alt="project-2" class="rounded-xl shadow-xl hover:opacity-70 h-72">
                     </a>
                 </div>
 
                 <div class="md:w-2/5 pl-7 fit-out">
 
-                    <h1 class="text-4xl font-bold mb-6">Hackathon Project</h1>
+                    <h1 class="text-black text-4xl font-bold mb-6 dark:text-blue-50">Hackathon Project</h1>
                     <p class="text-lg leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
-                        The QUESTION PAPERS CRAWLER was created by combining the REQUESTS that gathers data from the internet with the BEAUTIFUL SOUP that parses the material that was gathered.
+                        The QUESTION PAPERS CRAWLER was created by combining the REQUESTS that gathers data from the
+                        internet with the BEAUTIFUL SOUP that parses the material that was gathered.
 
                     <div class="flex flex-row align-bottom space-x-4">
-                    <a href="https://github.com/satyad3v/DIET-INTERNAL-HACKATHON" target="_blank">
-                        <img src="assets/icons/icons8-github-64.png" alt="github" class="w-9 h-9 hover:bg-blue-800 rounded-full">
-                    </a>
-                    <a href="https://diet.nagasatya.in/" class="w-9 h-9" target="_blank">
-                        <img src="assets/icons/icons8-link-48.png" alt="link" class="w-9 h-9 hover:bg-blue-800 rounded-md">
-                    </a>
+                        <a href="https://github.com/satyad3v/DIET-INTERNAL-HACKATHON" target="_blank">
+                            <img src="assets/icons/icons8-github-64.png" alt="github"
+                                class="w-9 h-9 hover:bg-blue-800 rounded-full">
+                        </a>
+                        <a href="https://diet.nagasatya.in/" class="w-9 h-9" target="_blank">
+                            <img src="assets/icons/icons8-link-48.png" alt="link"
+                                class="w-9 h-9 hover:bg-blue-800 rounded-md">
+                        </a>
                     </div>
                 </div>
 
@@ -447,30 +467,35 @@
 
             <!-- Box 3 -->
 
-            <div class="flex  flex-wrap  justify-center pt-12 fit-in">
+            <div class="flex  flex-wrap  justify-center pt-12 fit-in" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
 
 
                 <div class="flex flex-wrap">
                     <a href="https://iamnagasatya-krishna-image-gallery.netlify.app/" target="_blank">
-                        <img src="assets/3.png" alt="project-3"
-                            class="rounded-xl shadow-xl hover:opacity-70 h-72">
+                        <img src="assets/3.png" alt="project-3" class="rounded-xl shadow-xl hover:opacity-70 h-72">
                     </a>
                 </div>
 
                 <div class="md:w-2/5 pl-7 fit-out">
 
-                    <h1 class="text-4xl font-bold mb-6">Image-Gallery</h1>
+                    <h1 class="text-black text-4xl font-bold mb-6 dark:text-blue-50">Image-Gallery</h1>
                     <p class="text-lg leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
-                        This gallery aims to offer you a glimpse into the multifaceted persona of Sri Krishna, showcasing his various avatars, his divine childhood antics, his enchanting flute playing, and his profound spiritual wisdom.
+                        This gallery aims to offer you a glimpse into the multifaceted persona of Sri Krishna,
+                        showcasing his various avatars, his divine childhood antics, his enchanting flute playing, and
+                        his profound spiritual wisdom.
                     </p>
 
                     <div class="flex flex-row align-bottom space-x-4">
-                    <a href="https://github.com/iamNagasatya/Image-Gallery" target="_blank">
-                        <img src="assets/icons/icons8-github-64.png" alt="github" class="w-9 h-9 hover:bg-blue-800 rounded-full">
-                    </a>
-                    <a href="https://iamnagasatya-krishna-image-gallery.netlify.app/" class="w-9 h-9" target="_blank">
-                        <img src="assets/icons/icons8-link-48.png" alt="link" class="w-9 h-9 hover:bg-blue-800 rounded-md">
-                    </a>
+                        <a href="https://github.com/iamNagasatya/Image-Gallery" target="_blank">
+                            <img src="assets/icons/icons8-github-64.png" alt="github"
+                                class="w-9 h-9 hover:bg-blue-800 rounded-full">
+                        </a>
+                        <a href="https://iamnagasatya-krishna-image-gallery.netlify.app/" class="w-9 h-9"
+                            target="_blank">
+                            <img src="assets/icons/icons8-link-48.png" alt="link"
+                                class="w-9 h-9 hover:bg-blue-800 rounded-md">
+                        </a>
                     </div>
                 </div>
 
@@ -482,20 +507,126 @@
 
     <section id="Let's-connect" class="pt-11">
         <div class="my-10 pb-3 md:pt-16">
-            <h1 class="text-center font-bold text-4xl">
+            <h1 class="text-black text-center font-bold text-4xl dark:text-blue-50">
                 Let's Connect
                 <hr class="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded">
                 </hr>
             </h1>
         </div>
+        <div class="flex flex-wrap must justify-center items-center ">
 
 
-        
-    
+            <div class="bg-blue-600 text-black w-1/4 md:p-10 text-value">
+
+
+                <h1
+                    class="head-contact self-center text-4xl font-mono font-semibold whitespace-nowrap bg-green-500 p-3 w-fit relative right-16">
+                    <span class="">Contact Me</span>
+                </h1>
+                <p class="py-6 px-0 font-medium ">I'll read every email. Send me any message you want and i'll get back
+                    to you.</p>
+
+                <p class="py-2 px-0 font-medium ">I need the <span class="text-green-500">company name </span>and <span
+                        class="text-green-500 ">email address</span>, but you will get the response.</p>
+
+            </div>
+
+
+            <div class="border-blue-600 border-2 w-2/4 rounded-md connact-me">
+                <div class="py-8 lg:py-9 px-5 mx-auto max-w-screen-md">
+                    <form action="#" class="space-y-8">
+
+                        <div class="flex">
+                            <span class="w-full pr-10">
+                                <label for="Full-Name"
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Full-Name</label>
+                                <input type="text" id="Full-Name"
+                                    class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                    placeholder="NagaSatya" required>
+                            </span>
+                            <span class="w-full">
+                                <label for="subject"
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                                <input type="text" id="subject"
+                                    class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                    placeholder="Let me know how can I help you" required>
+                            </span>
+                        </div>
+
+
+                        <div>
+                            <label for="email"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                                email</label>
+                            <input type="email" id="email"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                placeholder="name@gamil.com" required>
+                        </div>
+
+
+
+
+                        <div class="sm:col-span-2">
+                            <label for="message"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                                message</label>
+                            <textarea id="message" rows="6"
+                                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                placeholder="Leave a comment..."></textarea>
+                        </div>
+
+
+                        <button type="submit"
+                            class="py-3 px-5 flex text-sm font-medium text-center text-white rounded-lg bg-blue-700 sm:w-fit hover:bg-green-500 hover:text-gray-950">
+                            <img src="assets/icons/Message-icon.png" alt="Message-icon" class="w-6  h-6">
+                            <p class="pl-3">Send Message</p>
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-Section-->
+
+    <section class="flex justify-center items-center pt-36 pb-10">
+
+        <div class="flex flex-col w-4/5">
+            <hr class="my-6 border-black dark:border-gray-200">
+            <div>
+                <div class="flex items-center justify-between flex-row">
+                    <span class="text-black text-sm sm:text-center dark:text-blue-50">© 2023 NagaSatya Sai</span>
+
+                    <div class="flex justify-center rounded-full p-3 dark:bg-slate-500">
+                        <a href="" target="_blank">
+                            <img src="assets/icons/Twitter-icon.svg" class="w-10 h-10 pr-1 hover:animate-bounce"
+                                alt="twitter">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/icons/Linkedin-icon.svg" class="w-10 h-10 pr-1 hover:animate-bounce"
+                                alt="Linked">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/icons/instagram-icon.svg" class="w-11 h-10 pr-1 hover:animate-bounce"
+                                alt="instagram">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="assets/icons/Github-icon.svg" class="w-9 h-9 pl-1 hover:animate-bounce"
+                                alt="github">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 
