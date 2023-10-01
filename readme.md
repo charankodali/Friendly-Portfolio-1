@@ -10,7 +10,7 @@ This portfolio is built using Tailwind CSS, a highly customizable CSS framework,
 
 To run this portfolio on your local system, follow these steps:
 
-### Prerequisites
+### Pre-Requisites
 
 You need to have [Node.js](https://nodejs.org/) installed on your computer.
 
@@ -18,20 +18,21 @@ You need to have [Node.js](https://nodejs.org/) installed on your computer.
 
 1. Clone this repository to your local machine:
 
-   ```
-   git clone [repository-url]
-
+```
+ git clone [repository-url]
+```
 ###    
 2. Navigate to the project directory:
 
-```cd [project-directory]
-    Install the project dependencies: 
+```
+cd [project-directory]
 ```
 
 ###    
-3. npm install
-    Development Server
-    
+3. Install the project dependencies:
+```
+npm install
+```    
     
 ###    
 4. To view your portfolio locally and make customizations, use the development server:
@@ -40,7 +41,7 @@ You need to have [Node.js](https://nodejs.org/) installed on your computer.
 npm run dev
 ```
 ###  
-5. This command will start a local development server, and you can access your portfolio at``` http://localhost:3000 ```in your web browser.
+5. This command will start a local development server, and you can access your portfolio at ``` http://localhost:3000``` in your web browser.
 
 ###  
 6. Customization
@@ -58,4 +59,4 @@ This command will generate optimized, production-ready files in the build direct
 ###  
 8. Deployment
 
-You can deploy your portfolio to various hosting platforms, such as``` GitHub Pages```, ```Netlify```, or ```Vercel```, by simply uploading the contents of the build directory.
+You can deploy your portfolio to various hosting platforms, such as ``` GitHub Pages```, ```Netlify```, or ```Vercel```, by simply uploading the contents of the build directory.
